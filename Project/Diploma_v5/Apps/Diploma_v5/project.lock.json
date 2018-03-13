@@ -15893,12 +15893,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\Diploma_v5\\Diploma_v5.csproj",
+      "projectUniqueName": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\Diploma_v5\\Diploma_v5.csproj",
       "projectName": "Diploma_v5",
-      "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\Diploma_v5\\Diploma_v5.csproj",
-      "projectJsonPath": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\Diploma_v5\\project.json",
+      "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\Diploma_v5\\Diploma_v5.csproj",
+      "projectJsonPath": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\Diploma_v5\\project.json",
       "packagesPath": "C:\\Users\\Andrej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\Diploma_v5\\obj\\",
+      "outputPath": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\Diploma_v5\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Andrej\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -15911,11 +15911,11 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             },
-            "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
+            "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "C:\\Users\\Andrej\\Documents\\Diploma\\DiplomaGit\\Project\\Diploma_v5\\Apps\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
             }
           }
         }
