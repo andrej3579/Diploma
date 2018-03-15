@@ -101,12 +101,16 @@
   <ItemGroup>
     <Compile Include="Assets\AddButtonScript.cs" />
     <Compile Include="Assets\CloseButtonScript.cs" />
+    <Compile Include="Assets\GestureManagerNew.cs" />
     <Compile Include="Assets\LightButt.cs" />
+    <Compile Include="Assets\LightRotate.cs" />
     <Compile Include="Assets\MoveButtonScript.cs" />
     <Compile Include="Assets\MoveLight.cs" />
+    <Compile Include="Assets\NewHandsManager.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\BasicCursor.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\GazeManager.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\GestureManager.cs" />
+    <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\GestureManager1.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\Input\Scripts\HandsManager.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\ObjectSurfaceObserver.cs" />
     <Compile Include="Assets\Planetarium\Assets\HoloToolkit-SpatialMapping-230\SpatialMapping\Scripts\PlaneFinding.cs" />
@@ -134,6 +138,7 @@
     <Compile Include="Assets\RemoveButtonScript.cs" />
     <Compile Include="Assets\RotateButtonScript.cs" />
     <Compile Include="Assets\RotateLight.cs" />
+    <Compile Include="Assets\Rotation.cs" />
     <Compile Include="Assets\StartAction.cs" />
     <Compile Include="Assets\WorldScript.cs" />
   </ItemGroup>

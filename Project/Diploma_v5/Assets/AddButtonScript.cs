@@ -5,12 +5,10 @@ using Academy.HoloToolkit.Unity;
 
 public class AddButtonScript : Singleton<AddButtonScript>
 {
-
-    [Tooltip("A collection of Placeable space object prefabs to generate in the world.")]
-    public GameObject spaceObjectPrefab;
+    //public GameObject spaceObjectPrefab;
     public void OnSelect()
     {
-        Instantiate(spaceObjectPrefab);
+        Instantiate(StartAction.Instance.spaceObjectPrefab);
         StartAction.Instance.globalCount += 1 ;
     }
 }

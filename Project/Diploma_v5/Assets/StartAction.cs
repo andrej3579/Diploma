@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Academy.HoloToolkit.Unity;
+using System.Collections;
 
 /// <summary>
 /// Called by PlaySpaceManager after planes have been generated from the Spatial Mapping Mesh.
@@ -14,10 +15,18 @@ public class StartAction : Singleton<StartAction>
     public GameObject spaceObjectPrefab;
     public int globalCount;
 
+    IEnumerator Wait()
+    {
+        globalCount++;
+        yield return new WaitForSeconds(10);
+        Instantiate(spaceObjectPrefab);
+    }
+
     public void Start() {
 
-        Instantiate(spaceObjectPrefab);
-        globalCount++;
+        StartCoroutine(Wait());
+        //Instantiate(spaceObjectPrefab);
+        //globalCount++;
     }
     
 }

@@ -7,9 +7,9 @@
 # Default behavior is to never overwrite files
 Diploma_v5.sln: modified
 Diploma_v5\App.cs: B6DDD516EA47F862E97022C090031ED9
-Diploma_v5\Diploma_v5.csproj: 88A5379422170AD726E0F7BFC378B6D5
+Diploma_v5\Diploma_v5.csproj: C2C993DB9097B884489EB0C965C68C6C
 Diploma_v5\Diploma_v5.csproj.user: modified
-Diploma_v5\Package.appxmanifest: 2E519D6FDB50AC4C736CF345FB766772
+Diploma_v5\Package.appxmanifest: 396AFC32232D702053A77CD088CEDBCD
 Diploma_v5\project.json: 1D02BC64BAC0D041019673A1C4C51737
 Diploma_v5\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
 Diploma_v5\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

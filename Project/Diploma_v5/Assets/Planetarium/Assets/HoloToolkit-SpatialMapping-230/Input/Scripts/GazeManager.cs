@@ -37,6 +37,7 @@ namespace Academy.HoloToolkit.Unity
         /// RaycastHit Normal direction.
         /// </summary>
         public Vector3 Normal { get; private set; }
+        public object OverrideFocusedObject { get; internal set; }
 
         [Tooltip("Checking enables SetFocusPointForFrame to set the stabilization plane.")]
         public bool SetStabilizationPlane = true;

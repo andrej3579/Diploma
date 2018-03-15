@@ -107,20 +107,20 @@ public class MoveLight : MonoBehaviour
 
     public void OnSelect()
     {
-       if (IsPlacing)
+        if (IsPlacing)
         {
             OnPlacementStop();
         }
         else
         {
             GameObject meni = this.gameObject.transform.GetChild(2).gameObject;
-            if(meni.activeSelf == false)
+            if (meni.activeSelf == false)
             {
                 meni.SetActive(true);
             }
         }
     }
-       
+
 
     private void Update()
     {

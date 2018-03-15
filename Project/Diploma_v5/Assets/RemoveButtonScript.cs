@@ -14,7 +14,7 @@ public class RemoveButtonScript : MonoBehaviour {
             StartAction.Instance.globalCount -= 1;
         if (StartAction.Instance.globalCount < 1)
         {
-            StartAction.Instance.Start();
+            AddButtonScript.Instance.OnSelect();
         }
 
     }
