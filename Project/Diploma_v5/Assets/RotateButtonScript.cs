@@ -21,7 +21,6 @@ public class RotateButtonScript : MonoBehaviour
         else
         {
             rotate.OnPlacementStart();
-            print("RestarRotate");
         }
     
 

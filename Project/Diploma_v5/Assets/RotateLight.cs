@@ -25,8 +25,7 @@ public class RotateLight : MonoBehaviour
         {
             // oldX = Camera.main.ScreenToViewportPoint(Input.mousePosition).x;
             // oldY = Camera.main.ScreenToViewportPoint(Input.mousePosition).y;
-            oldX = tempCursor.transform.position.x;
-            oldY = tempCursor.transform.position.y;
+            
             OnPlacementStart();
 
         }
@@ -65,7 +64,8 @@ public class RotateLight : MonoBehaviour
     {
 
         //GestureManager.Instance.OverrideFocusedObject = gameObject;
-
+        oldX = tempCursor.transform.position.x;
+        oldY = tempCursor.transform.position.y;
         IsRotating = true;
         //print("OnPlacementStart");
     }
@@ -90,6 +90,7 @@ public class RotateLight : MonoBehaviour
         //GestureManager.Instance.OverrideFocusedObject = null;
 
         // Exit placement mode.
+        gameObject.transform.rotation = gameObject.transform.rotation;
         IsRotating = false;
         //print("OnPlacementStop");
     }

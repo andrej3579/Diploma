@@ -49,6 +49,16 @@ namespace Academy.HoloToolkit.Unity
 
         private void GestureRecognizer_TappedEvent(InteractionSourceKind source, int tapCount, Ray headRay)
         {
+            GameObject[] heads = GameObject.FindGameObjectsWithTag("Head");
+            foreach (GameObject head in heads)
+            {
+                //print("foundHead" + head.name);
+                if (head.GetComponent<RotateLight>().enabled == true)
+                {
+                    head.SendMessage("Tap");
+                }
+            }
+
             if (focusedObject != null)
             {
                 focusedObject.SendMessage("OnSelect");
