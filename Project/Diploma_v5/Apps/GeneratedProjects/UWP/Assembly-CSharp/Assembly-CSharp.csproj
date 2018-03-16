@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3f145a22-2f10-49c7-bc2f-ed40daae5ab3}</ProjectGuid>
+    <ProjectGuid>{a51e6c8d-7126-49c2-b6ae-67a87f264d3a}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Andrej\Documents\Diploma\DiplomaGit\Project\Diploma_v5\Apps\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{8d06e8eb-e9ee-47d9-af1d-6b7c95faea19}</Project>
+      <Project>{ea16b8bd-c1be-4ab1-8a9a-a65a99476639}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine">

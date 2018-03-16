@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AddButtonScript.cs" />
+    <Compile Include="Assets\AlphaButtonSelect.cs" />
     <Compile Include="Assets\CloseButtonScript.cs" />
     <Compile Include="Assets\GestureManagerNew.cs" />
     <Compile Include="Assets\LightButt.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="Assets\QuitBox.cs" />
     <Compile Include="Assets\QuitButton.cs" />
     <Compile Include="Assets\QuitOnClick.cs" />
+    <Compile Include="Assets\RayMaterialScript.cs" />
     <Compile Include="Assets\RemoveButtonScript.cs" />
     <Compile Include="Assets\RotateButtonScript.cs" />
     <Compile Include="Assets\RotateLight.cs" />
