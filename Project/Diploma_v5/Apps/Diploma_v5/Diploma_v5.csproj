@@ -211,12 +211,12 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\Andrej\Documents\Diploma\DiplomaGit\Project\Diploma_v5\Apps\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{a51e6c8d-7126-49c2-b6ae-67a87f264d3a}</Project>
+      <Project>{a44b2680-ddf1-410f-b8d1-c1e345a28fa2}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Andrej\Documents\Diploma\DiplomaGit\Project\Diploma_v5\Apps\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{ea16b8bd-c1be-4ab1-8a9a-a65a99476639}</Project>
+      <Project>{dce80788-2902-46eb-bf0b-4a5ee3860e29}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>

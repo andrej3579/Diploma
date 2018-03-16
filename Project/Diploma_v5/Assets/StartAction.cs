@@ -18,7 +18,7 @@ public class StartAction : Singleton<StartAction>
     IEnumerator Wait()
     {
         globalCount++;
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(11);
         Instantiate(spaceObjectPrefab);
     }
 

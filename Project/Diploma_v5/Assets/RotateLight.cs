@@ -67,6 +67,11 @@ public class RotateLight : MonoBehaviour
         oldX = tempCursor.transform.position.x;
         oldY = tempCursor.transform.position.y;
         IsRotating = true;
+        GameObject light = gameObject.transform.parent.gameObject;
+        GameObject meni = light.transform.GetChild(2).gameObject;
+        meni.SetActive(false);
+        light.GetComponent<BoxCollider>().enabled = false;
+
         //print("OnPlacementStart");
     }
 
@@ -91,6 +96,10 @@ public class RotateLight : MonoBehaviour
 
         // Exit placement mode.
         gameObject.transform.rotation = gameObject.transform.rotation;
+        GameObject light = gameObject.transform.parent.gameObject;
+        GameObject meni = light.transform.GetChild(2).gameObject;
+        light.GetComponent<BoxCollider>().enabled = true;
+        meni.SetActive(true);
         IsRotating = false;
         //print("OnPlacementStop");
     }
